@@ -2,6 +2,7 @@ package com.org.proj.apponeapi.Repository;
 
 
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -10,52 +11,52 @@ import java.util.List;
 public class AppOneRepository {
 
     @Query(nativeQuery = true)
-    public List<String> findDataForFirstFilter(String search) {
+    public List<String> findFirstFilterDataWithSearch(@Param("search") String search) {
         return null;
     }
 
     @Query(nativeQuery = true)
-    public List<String> findDataForSecondFilter(String search) {
+    public List<String> findSecondFilterDataWithSearch(@Param("search")String search) {
         return null;
     }
 
     @Query(nativeQuery = true)
-    public List<String> findDataForThirdFilter(String search) {
+    public List<String> findThirdFilterDataWithSearch(@Param("search")String search) {
         return null;
     }
 
     @Query(nativeQuery = true)
-    public List<String> findDataForFourthFilter(String search) {
+    public List<String> findFourthFilterDataWithSearch(@Param("search")String search) {
         return null;
     }
 
     @Query(nativeQuery = true)
-    public List<String> findDataForFifthFilter(String search) {
+    public List<String> findFifthFilterDataWithSearch(@Param("search")String search) {
         return null;
     }
 
     @Query(nativeQuery = true)
-    public List<String> findDataForSixthFilter(String search) {
+    public List<String> findSixthFilterDataWithSearch(@Param("search")String search) {
         return null;
     }
 
     @Query(nativeQuery = true)
-    public List<String> findDataForSeventhFilter(String search) {
+    public List<String> findSeventhFilterDataWithSearch(@Param("search")String search) {
         return null;
     }
 
     @Query(nativeQuery = true)
-    public List<String> findDataForEighthFilter(String search) {
+    public List<String> findEighthFilterDataWithSearch(@Param("search")String search) {
         return null;
     }
 
     @Query(nativeQuery = true)
-    public List<String> findDataForNinthFilter(String search) {
+    public List<String> findNinthFilterDataWithSearch(@Param("search")String search) {
         return null;
     }
 
     @Query(nativeQuery = true)
-    public List<String> findDataForTenthFilter(String search) {
+    public List<String> findTenthFilterDataWithSearch(@Param("search")String search) {
         return null;
     }
 
